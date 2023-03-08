@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - TodoRepositoryTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>TodoRepositoryTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.pact.testcontainers.repository.html">com.pact.testcontainers.repository</a> &gt; TodoRepositoryTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.197s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">shouldGetPendingTodos()</td>
+<td class="success">0.197s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>14:09:58.661 [Test worker] INFO  org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.pact.testcontainers.repository.TodoRepositoryTest]: TodoRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:09:58.736 [Test worker] INFO  org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.pact.testcontainers.Main for test class com.pact.testcontainers.repository.TodoRepositoryTest
+14:09:58.766 [Test worker] INFO  org.testcontainers.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+14:09:58.783 [Test worker] INFO  org.testcontainers.dockerclient.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.UnixSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+14:09:59.033 [Test worker] INFO  org.testcontainers.dockerclient.DockerClientProviderStrategy - Found Docker environment with local Unix socket (unix:///var/run/docker.sock)
+14:09:59.033 [Test worker] INFO  org.testcontainers.DockerClientFactory - Docker host IP address is localhost
+14:09:59.054 [Test worker] INFO  org.testcontainers.DockerClientFactory - Connected to docker: 
+  Server Version: 20.10.22
+  API Version: 1.41
+  Operating System: Docker Desktop
+  Total Memory: 7851 MB
+14:09:59.070 [Test worker] INFO  &#x1f433; [testcontainers/ryuk:0.3.3] - Creating container for image: testcontainers/ryuk:0.3.3
+14:09:59.436 [Test worker] INFO  org.testcontainers.utility.RegistryAuthLocator - Credential helper/store (docker-credential-desktop) does not have credentials for https://index.docker.io/v1/
+14:09:59.513 [Test worker] INFO  &#x1f433; [testcontainers/ryuk:0.3.3] - Container testcontainers/ryuk:0.3.3 is starting: 4caf56ab24c8f1bedff2eb647df6662cf367dd62fae4eeb33c0372e2a27c9073
+14:09:59.809 [Test worker] INFO  &#x1f433; [testcontainers/ryuk:0.3.3] - Container testcontainers/ryuk:0.3.3 started in PT0.751892S
+14:09:59.814 [Test worker] INFO  org.testcontainers.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+14:09:59.815 [Test worker] INFO  org.testcontainers.DockerClientFactory - Checking the system...
+14:09:59.815 [Test worker] INFO  org.testcontainers.DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0
+14:09:59.815 [Test worker] INFO  &#x1f433; [postgres:14-alpine] - Creating container for image: postgres:14-alpine
+14:09:59.841 [Test worker] INFO  &#x1f433; [postgres:14-alpine] - Container postgres:14-alpine is starting: 075f050cd4b1009f5287978fe4f3a0cec786a36afb11ed88bbd557b4250dc711
+14:10:01.128 [Test worker] INFO  &#x1f433; [postgres:14-alpine] - Container postgres:14-alpine started in PT1.313012S
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.0)
+
+14:10:01.292 [Test worker] WARN  org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/Users/siva/.gradle/caches/modules-2/files-2.1/org.json/json/20220924/5aa95e7688f76c664af205c5937620f02688dfbc/json-20220924.jar!/org/json/JSONObject.class
+	jar:file:/Users/siva/.gradle/caches/modules-2/files-2.1/com.vaadin.external.google/android-json/0.0.20131108.vaadin1/fa26d351fe62a6a17f5cda1287c1c6110dec413f/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+14:10:01.297 [Test worker] INFO  com.pact.testcontainers.repository.TodoRepositoryTest - Starting TodoRepositoryTest using Java 19.0.1 with PID 52464 (started by siva in /Users/siva/FACADE/FissionLabs/coe/pact-test-containers)
+14:10:01.298 [Test worker] INFO  com.pact.testcontainers.repository.TodoRepositoryTest - No active profile set, falling back to 1 default profile: &quot;default&quot;
+14:10:01.525 [Test worker] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+14:10:01.596 [Test worker] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 67 ms. Found 1 JPA repository interfaces.
+14:10:01.748 [Test worker] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+14:10:01.775 [Test worker] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.1.5.Final
+14:10:01.846 [Test worker] WARN  org.hibernate.orm.deprecation - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+14:10:01.903 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:10:02.029 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2e1ad7de
+14:10:02.030 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:10:02.059 [Test worker] INFO  SQL dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+Hibernate: drop table if exists todos cascade
+14:10:02.380 [Test worker] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - SQL Warning Code: 0, SQLState: 00000
+14:10:02.381 [Test worker] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper - table &quot;todos&quot; does not exist, skipping
+Hibernate: create table todos (id varchar(255) not null, completed boolean, order_number integer, title varchar(255) not null, primary key (id))
+14:10:02.393 [Test worker] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+14:10:02.397 [Test worker] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+14:10:02.577 [Test worker] INFO  com.pact.testcontainers.repository.TodoRepositoryTest - Started TodoRepositoryTest in 1.42 seconds (process running for 4.47)
+Hibernate: select t1_0.id,t1_0.completed,t1_0.order_number,t1_0.title from todos t1_0
+Hibernate: insert into todos (completed, order_number, title, id) values (?, ?, ?, ?)
+Hibernate: insert into todos (completed, order_number, title, id) values (?, ?, ?, ?)
+Hibernate: insert into todos (completed, order_number, title, id) values (?, ?, ?, ?)
+Hibernate: select t1_0.id,t1_0.completed,t1_0.order_number,t1_0.title from todos t1_0 where t1_0.completed=?
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.6</a> at 08-Mar-2023, 2:10:03 pm</p>
+</div>
+</div>
+</body>
+</html>
